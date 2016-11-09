@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ array.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file
+  -->
+
+<resources>
+    <string-array name="statusBarModes">
+        <item>Transparent</item>
+        <item>Opaque</item>
+        <item>Translucent</item>
+        <item>Semi-Transparent</item>
+        <item>Warning</item>
+    </string-array>
+
+    <string-array name="statusBarModeValues">
+        <item>transparent</item>
+        <item>opaque</item>
+        <item>translucent</item>
+        <item>semi-transparent</item>
+        <item>warning</item>
+    </string-array>
+
+    <string-array name="networkMobileDatatypes">
+        <item>1x</item>
+        <item>3G</item>
+        <item>4G</item>
+        <item>Edge</item>
+        <item>GPRS</item>
+        <item>HSPA</item>
+        <item>LTE</item>
+        <item>Roaming</item>
+        <item>Hidden</item>
+    </string-array>
+
+    <string-array name="networkMobileDatatypeValues">
+        <item>1x</item>
+        <item>3g</item>
+        <item>4g</item>
+        <item>e</item>
+        <item>g</item>
+        <item>h</item>
+        <item>lte</item>
+        <item>roam</item>
+        <item>hidden</item>
+    </string-array>
+
+    <string-array name="batteryLevel">
+        <item>100% (fully charged)</item>
+        <item>85%</item>
+        <item>70%</item>
+        <item>50%</item>
+        <item>30%</item>
+        <item>15%</item>
+        <item>0% (depleted)</item>
+    </string-array>
+
+    <string-array name="batteryLevelEscaped">
+        <item>100%% (fully charged)</item>
+        <item>85%%</item>
+        <item>70%%</item>
+        <item>50%%</item>
+        <item>30%%</item>
+        <item>15%%</item>
+        <item>0%% (depleted)</item>
+    </string-array>
+
+    <string-array name="batteryLevelValues">
+        <item>100</item>
+        <item>85</item>
+        <item>70</item>
+        <item>50</item>
+        <item>30</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="networkReceptionLevels">
+        <item>4 (full reception)</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0 (no reception)</item>
+    </string-array>
+
+    <string-array name="networkReceptionLevelValues">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="networkNumOfSims">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="statusVolume">
+        <item>Hidden</item>
+        <item>Silent</item>
+        <item>Vibrate</item>
+    </string-array>
+
+    <string-array name="statusVolumeValues">
+        <item>hidden</item>
+        <item>silent</item>
+        <item>vibrate</item>
+    </string-array>
+
+    <string-array name="statusBluetooth">
+        <item>Hidden</item>
+        <item>Connected</item>
+        <item>Disconnected</item>
+    </string-array>
+
+    <string-array name="statusBluetoothValues">
+        <item>hidden</item>
+        <item>connected</item>
+        <item>disconnected</item>
+    </string-array>
+
+
+</resources>

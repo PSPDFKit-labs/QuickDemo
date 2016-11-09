@@ -1,0 +1,172 @@
+<!--
+  ~ demo_mode_preferences.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="enable_demo"
+        android:title="Enable demo" />
+
+    <PreferenceCategory android:title="Statusbar Mode">
+        <ListPreference
+            android:defaultValue="transparent"
+            android:entries="@array/statusBarModes"
+            android:entryValues="@array/statusBarModeValues"
+            android:key="statusBarMode"
+            android:title="Statusbar Mode"
+            tools:summary="Translucent" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="hideNotifications"
+            android:title="Hide notifications" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Battery">
+        <ListPreference
+            android:defaultValue="100"
+            android:key="batteryLevel"
+            android:entries="@array/batteryLevel"
+            android:entryValues="@array/batteryLevelValues"
+            android:title="Battery Level" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="batteryPlugged"
+            android:title="Show battery as charging" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Clock">
+        <EditTextPreference
+            android:defaultValue="0700"
+            android:key="time"
+            android:title="Time" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Network">
+
+        <SwitchPreference
+            android:key="networkShowAirplane"
+            android:defaultValue="false"
+            android:title="Airplane mode"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="networkMobileShown"
+            android:title="Show network icon" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/networkReceptionLevels"
+            android:entryValues="@array/networkReceptionLevelValues"
+            android:key="networkMobileLevel"
+            android:title="Mobile signal" />
+
+        <ListPreference
+            android:defaultValue="hidden"
+            android:entries="@array/networkMobileDatatypes"
+            android:entryValues="@array/networkMobileDatatypeValues"
+            android:key="networkMobileDatatype"
+            android:title="Data type"
+            tools:summary="LTE" />
+
+        <SwitchPreference
+            android:key="networkFullConnectivity"
+            android:defaultValue="true"
+            android:title="Full connectivity"/>
+
+        <SwitchPreference
+            android:key="networkCarrierNetworkChange"
+            android:defaultValue="false"
+            android:title="Carrier network change mode"/>
+
+        <SwitchPreference
+            android:key="networkShowNoSim"
+            android:defaultValue="false"
+            android:title="No SIM card"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/networkNumOfSims"
+            android:entryValues="@array/networkNumOfSims"
+            android:key="networkNumberOfSims"
+            android:title="Number of SIM cards" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Wi-Fi">
+        <SwitchPreference
+            android:key="networkShowWifi"
+            android:defaultValue="false"
+            android:title="Show Wi-Fi"/>
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/networkReceptionLevels"
+            android:entryValues="@array/networkReceptionLevelValues"
+            android:key="networkWifiLevel"
+            android:title="Wi-Fi signal" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Status symbols">
+        <ListPreference
+            android:defaultValue="hidden"
+            android:entries="@array/statusBluetooth"
+            android:entryValues="@array/statusBluetoothValues"
+            android:key="statusBluetooth"
+            android:title="Bluetooth" />
+
+        <ListPreference
+            android:defaultValue="hidden"
+            android:entries="@array/statusVolume"
+            android:entryValues="@array/statusVolumeValues"
+            android:key="statusVolume"
+            android:title="Volume" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusLocation"
+            android:title="Show Location" />
+        
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusSync"
+            android:title="Show Sync" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusTty"
+            android:title="Show TTY" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusEri"
+            android:title="Show ERI" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusMute"
+            android:title="Show Mute" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="statusSpeakerphone"
+            android:title="Show Speakerphone" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
