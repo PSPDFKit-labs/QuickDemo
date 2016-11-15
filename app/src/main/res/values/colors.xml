@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ colors.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file
+  -->
+
+<resources>
+    <color name="colorPrimary">#0282BE</color>
+    <color name="colorPrimaryDark">#015580</color>
+    <color name="colorAccent">#4FC3F7</color>
+</resources>
