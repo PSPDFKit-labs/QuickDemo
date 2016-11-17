@@ -2,6 +2,8 @@
 
 _QuickDemo_ is a Nougat 7.0 [quick settings tile](https://developer.android.com/about/versions/nougat/android-7.0.html#tile_api) for fast access to the Marshmallow 6.0 [System UI demo mode](https://android.googlesource.com/platform/frameworks/base/+/android-6.0.0_r1/packages/SystemUI/docs/demo_mode.md). The app also provides a configuration activity for customizing available demo mode settings.
 
+Release blog post: https://pspdfkit.com/blog/2016/clean-statusbar-with-systemui-and-quickdemo/
+
 ![QuickDemo in action](showcase.gif)
 
 ## Requirements
