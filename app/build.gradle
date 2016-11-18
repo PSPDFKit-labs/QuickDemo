@@ -19,7 +19,7 @@ android {
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.pspdfkit.labs.quickdemo"
-        minSdkVersion 24
+        minSdkVersion 23
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
