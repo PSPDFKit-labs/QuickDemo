@@ -26,7 +26,7 @@ cd QuickDemo/
 1. When launching the app for the first time you need to grant the `android.permission.DUMP` permission, which is required to control the System UI demo mode. You need to do this using `adb`.
 
   ```bash
-  adb shell pm grant com.pspdfkit.labsl.quickdemo android.permission.DUMP
+  adb shell pm grant com.pspdfkit.labs.quickdemo android.permission.DUMP
   ```
 
 2. Since the System UI tuner (and its demo mode) is an experimental Android feature, you need to activate it globally.
