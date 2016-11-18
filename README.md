@@ -8,9 +8,10 @@ Release blog post: https://pspdfkit.com/blog/2016/clean-statusbar-with-systemui-
 
 ## Requirements
 
-* Android SDK
-* Android Studio
+* Android SDK (API 25)
+* Android Studio 2.2+
 * `adb` (for installing the app and granting the required permissions)
+* Android emulator or devices running Marshmallow (API 23+)
 
 ## Building
 
