@@ -18,6 +18,7 @@ Release blog post: https://pspdfkit.com/blog/2016/clean-statusbar-with-systemui-
 To build and run the app, you can open the project with Android Studio and press `Run`. Alternatively you can install the app from the command line.
 
 ```bash
+git clone git@github.com:PSPDFKit-labs/QuickDemo.git
 cd QuickDemo/
 ./gradlew installDebug
 ```
