@@ -25,6 +25,18 @@ cd QuickDemo/
 
 ## Setup
 
+### With Gradle
+
+If you cloned the project, you can run `setupDemoMode` gradle task to do the setup.
+
+This can be done either by finding and selecting `setupDemoMode` in `Gradle` window in Android Studio, or by running the following:
+
+  ```bash
+  ./gradlew setupDemoMode
+  ```
+
+### Manually via adb
+
 1. When launching the app for the first time you need to grant the `android.permission.DUMP` permission, which is required to control the System UI demo mode. You need to do this using `adb`.
 
   ```bash
