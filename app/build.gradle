@@ -13,6 +13,7 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'android-command'
 
 android {
     compileSdkVersion 25
@@ -49,4 +50,12 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxandroid:2.0.0'
 
     testCompile 'junit:junit:4.12'
+}
+
+task setupDemoMode(type: com.novoda.gradle.command.AdbTask) {
+    description 'Demo Mode initial setup'
+    doLast {
+        runCommand(['shell', 'settings', 'put', 'global', 'sysui_demo_allowed', '1'])
+        runCommand(['shell', 'pm', 'grant', 'com.pspdfkit.labs.quickdemo', 'android.permission.DUMP'])
+    }
 }
