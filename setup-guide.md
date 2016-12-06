@@ -7,7 +7,13 @@ To enable _QuickDemo_ you need to do two things.
 1. Enable the System UI demo mode on your phone.
 2. Grant the `android.permission.DUMP` to the QuickDemo app. This permissions is protected and can't be requested at runtime.
 
-Both steps can be performed from you command line via `adb`.
+This can be achieved by running the following `gradle` task.
+
+```
+./gradlew setupDemoMode
+```
+
+If you don't have the project. Both steps can be performed manually from command line via `adb`.
 
 ```
 # Ensure demo mode is activated.
