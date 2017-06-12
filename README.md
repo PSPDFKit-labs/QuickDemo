@@ -63,3 +63,13 @@ This can be done either by finding and selecting `setupDemoMode` in `Gradle` win
 ## Feedback and contribution
 
 Since this project is open source, feel free to use it, give feedback, or contribute in any way you find suitable.
+
+## About
+
+<a href="https://pspdfkit.com/">
+  <img src="https://avatars2.githubusercontent.com/u/1527679?v=3&s=200" height="80" />
+</a>
+
+This project is maintained and funded by [PSPDFKit](https://pspdfkit.com/).
+
+See [our other open source projects](https://github.com/PSPDFKit-labs), read [our blog](https://pspdfkit.com/blog/) or say hello on Twitter ([@PSPDFKit](https://twitter.com/pspdfkit)).
