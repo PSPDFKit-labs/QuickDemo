@@ -16,8 +16,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'android-command'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.pspdfkit.labs.quickdemo"
         minSdkVersion 23
@@ -43,8 +43,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
 
     compile 'io.reactivex.rxjava2:rxjava:2.0.0'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.0'
