@@ -43,7 +43,7 @@ class SetupGuideActivity : AppCompatActivity() {
 
         // Setup content is just informative. We're using a webview to show pre-formatted instructions.
         setContentView(R.layout.activity_setup_guide)
-        val webView = findViewById(R.id.webview) as WebView
+        val webView: WebView = findViewById(R.id.webview)
         webView.loadUrl("file:///android_asset/setup-guide.html")
 
         // We periodically check if the permission has been granted. Once this happened, we notify the user and finish the activity.
