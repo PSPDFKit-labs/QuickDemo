@@ -55,7 +55,7 @@
         <EditTextPreference
             android:defaultValue="0700"
             android:key="time"
-            android:title="Time" />
+            android:title="Time (4 digits such as '0700')" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Network">
