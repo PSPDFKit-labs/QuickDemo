@@ -15,7 +15,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.preference.PreferenceManager
 import android.provider.Settings
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 

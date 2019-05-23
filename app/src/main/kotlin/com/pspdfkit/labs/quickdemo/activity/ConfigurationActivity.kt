@@ -18,8 +18,8 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.preference.PreferenceFragment
 import android.preference.SwitchPreference
-import android.support.annotation.ArrayRes
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.ArrayRes
+import androidx.appcompat.app.AppCompatActivity
 import com.pspdfkit.labs.quickdemo.DemoMode
 import com.pspdfkit.labs.quickdemo.R
 
