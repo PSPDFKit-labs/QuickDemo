@@ -1,9 +1,5 @@
 /*
- * ConfigurationActivity.kt
- *
- *   PSPDFKit
- *
- *   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+ *   Copyright (c) 2016-2019 PSPDFKit GmbH. All rights reserved.
  *
  *   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
  *   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -14,7 +10,11 @@
 package com.pspdfkit.labs.quickdemo.activity
 
 
-import android.content.*
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.preference.PreferenceFragment
 import android.preference.SwitchPreference
