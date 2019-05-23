@@ -1,9 +1,5 @@
 /*
- * ExampleInstrumentedTest.kt
- *
- *   PSPDFKit
- *
- *   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+ *   Copyright (c) 2016-2019 PSPDFKit GmbH. All rights reserved.
  *
  *   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
  *   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -13,8 +9,8 @@
 
 package com.pspdfkit.labs.quickdemo
 
-import android.support.test.InstrumentationRegistry
-import android.support.test.runner.AndroidJUnit4
+import androidx.test.InstrumentationRegistry
+import androidx.test.runner.AndroidJUnit4
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
