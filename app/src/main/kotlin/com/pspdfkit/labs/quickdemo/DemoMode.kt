@@ -1,9 +1,5 @@
 /*
- * DemoMode.kt
- *
- *   PSPDFKit
- *
- *   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+ *   Copyright (c) 2016-2019 PSPDFKit GmbH. All rights reserved.
  *
  *   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
  *   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -19,7 +15,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.preference.PreferenceManager
 import android.provider.Settings
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 

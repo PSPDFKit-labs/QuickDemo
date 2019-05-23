@@ -1,9 +1,5 @@
 <!--
-  ~ demo_mode_preferences.xml
-  ~
-  ~   PSPDFKit
-  ~
-  ~   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+  ~   Copyright (c) 2016-2019 PSPDFKit GmbH. All rights reserved.
   ~
   ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
   ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -56,6 +52,7 @@
             android:defaultValue="0700"
             android:key="time"
             android:title="Time (4 digits such as '0700')" />
+            android:singleLine="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Network">

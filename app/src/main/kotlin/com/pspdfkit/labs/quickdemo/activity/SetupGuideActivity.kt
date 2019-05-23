@@ -1,9 +1,5 @@
 /*
- * SetupGuideActivity.kt
- *
- *   PSPDFKit
- *
- *   Copyright (c) 2016 PSPDFKit GmbH. All rights reserved.
+ *   Copyright (c) 2016-2019 PSPDFKit GmbH. All rights reserved.
  *
  *   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
  *   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -16,7 +12,7 @@ package com.pspdfkit.labs.quickdemo.activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.webkit.WebView
 import android.widget.Toast
 import com.pspdfkit.labs.quickdemo.DemoMode
