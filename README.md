@@ -23,6 +23,8 @@ cd QuickDemo/
 ./gradlew installDebug
 ```
 
+You can also run the [`setup.sh`](https://github.com/PSPDFKit-labs/QuickDemo/blob/master/setup.sh) script, wich will check for ANDROID_HOME, clone the project, and use Gradle to install and setup the tool. The script will also remove files of the project after installation.
+
 ## Setup
 
 ### With Gradle
