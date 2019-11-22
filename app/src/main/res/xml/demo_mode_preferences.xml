@@ -44,6 +44,11 @@
             android:defaultValue="false"
             android:key="batteryPlugged"
             android:title="Show battery as charging" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="batteryPowersave"
+            android:title="Powersave mode" />
     </PreferenceCategory>
 
 

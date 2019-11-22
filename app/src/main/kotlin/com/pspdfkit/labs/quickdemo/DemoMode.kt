@@ -261,6 +261,13 @@ class DemoMode private constructor(context: Context) {
         var plugged by booleanPreference("batteryPlugged", false) { value ->
             if (enabled) sendDemoCommand("battery", "plugged" to value)
         }
+
+        /**
+         * Enables or disables the device's power save mode. Defaults to `false`.
+         */
+        var powersave by booleanPreference("batteryPowersave", default = false) { value ->
+            if(enabled) sendDemoCommand("battery", "powersave" to value)
+        }
     }
 
     private fun sendDemoCommand(command: String, vararg extras: Pair<String, Any>) {
