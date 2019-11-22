@@ -266,7 +266,7 @@ class DemoMode private constructor(context: Context) {
          * Enables or disables the device's power save mode. Defaults to `false`.
          */
         var powersave by booleanPreference("batteryPowersave", default = false) { value ->
-            if(enabled) sendDemoCommand("battery", "powersave" to value)
+            if (enabled) sendDemoCommand("battery", "powersave" to value)
         }
     }
 
